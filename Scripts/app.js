@@ -7,7 +7,7 @@
   
   
     //declared a named function way
-    /*
+    
     function replaceFirstParagraph() {
         console.log("inside replaceFirstParagraph function");
         var firstParagraph;
@@ -16,21 +16,21 @@
 
         firstParagraph.innerHTML = "My New Paragraph Data";
     }
-    */
+    
     
     // declare an anonymous function with named alias
-    var replaceFirstParagraph = function() {
-        console.log("inside replaceFirstParagraph anonymous function");
-        var firstParagraph;
+    // var replaceFirstParagraph = function() {
+    //     console.log("inside replaceFirstParagraph anonymous function");
+    //     var firstParagraph;
 
-        firstParagraph = document.getElementById("firstParagraph");
+    //     firstParagraph = document.getElementById("firstParagraph");
 
-        firstParagraph.innerHTML = "My New Paragraph Data";
-    };
+    //     firstParagraph.innerHTML = "My New Paragraph Data";
+    // };
     
    
-    // call the replaceFirstParagraph function
-    replaceFirstParagraph();
+    // // call the replaceFirstParagraph function
+    // replaceFirstParagraph();
 
 
 })();
